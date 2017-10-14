@@ -10,11 +10,7 @@ import reducers from './reducers';
 
 import API_KEY from '../config'
 
-console.log('API_KEY', API_KEY)
-
 const createStoreWithMiddleware = applyMiddleware(ReduxPromise)(createStore);
-
-
 
 ReactDOM.render(
   <Provider store={createStoreWithMiddleware(reducers)}>
