@@ -1,0 +1,13 @@
+.container {
+  margin-top: 20px;
+}
+td, th {
+  vertical-align: middle !important;
+  text-align: center !important;
+}
+
+.google-map {
+  border: solid 1px #ccc;
+  height: 150px;
+  width: 200px;
+}
